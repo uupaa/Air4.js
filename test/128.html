@@ -1,0 +1,36 @@
+<!DOCTYPE html><html><head><title>Air test</title>
+<meta name="viewport" content="">
+<meta charset="utf-8"></head><body>
+
+<input type="button" value="play" onclick="game && game.play()" />
+<input type="button" value="pause" onclick="game && game.pause()" />
+<br />
+<canvas id="dots" width="960" height="640" style="background:skyblue"></canvas>
+
+<script src="../node_modules/uupaa.perf.js/node_modules/uupaa.clock.js/node_modules/uupaa.pagevisibilityevent.js/lib/PageVisibilityEvent.js"></script>
+<script src="../node_modules/uupaa.perf.js/node_modules/uupaa.clock.js/lib/Clock.js"></script>
+<script src="../node_modules/uupaa.perf.js/lib/Perf.js"></script>
+<script src="../node_modules/uupaa.easing.js/lib/Easing.js"></script>
+<script src="../node_modules/uupaa.task.js/lib/Task.js"></script>
+<script src="../node_modules/uupaa.codec.js/node_modules/uupaa.hash.js/lib/Hash.js"></script>
+<script src="../node_modules/uupaa.codec.js/lib/Codec.js"></script>
+<script src="../node_modules/uupaa.codec.js/lib/Doubler.js"></script>
+<script src="../node_modules/uupaa.codec.js/lib/MessagePack.js"></script>
+<script src="../node_modules/uupaa.codec.js/lib/ZLib.js"></script>
+<script src="../node_modules/uupaa.codec.js/lib/PNG.js"></script>
+<script src="../node_modules/uupaa.thread.js/lib/Thread.js"></script>
+<script src="../node_modules/uupaa.thread.js/lib/ThreadPool.js"></script>
+<script src="../node_modules/uupaa.atlas.js/lib/Atlas128.js"></script>
+<script src=".././test/wmtools.js"></script>
+<script src="../lib/Air.js"></script>
+<script src="../lib/Air.Node.js"></script>
+<script src="../lib/Air.NodeA.js"></script>
+<script src="../lib/Air.ImageFrame.js"></script>
+<script src="../lib/Air.CanvasFrame.js"></script>
+<script src="../lib/Air.Cue.js"></script>
+<script src="./bench.dots.global.js"></script>
+<script src="./bench.dots.asset.js"></script>
+<script src="./bench.dots.game.js"></script>
+
+</body></html>
+
